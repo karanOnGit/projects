@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  text-align: center;
+  /* display: flex; */
+}
+
+.errorName {
+  /* color: tomato; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  background-color: antiquewhite;
+}
+
+#errors {
+  color: tomato;
+}
+
+#container {
+  /* background-color: yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 450px;
+  width: 450px;
+}
+
+.tile {
+  margin: 1px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid lightgray;
+
+  /* text */
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#digits {
+  color: black;
+  /* background-color: yellow; */
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 50px;
+  width: 450px;
+}
+
+.number {
+  margin: 3px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid black;
+
+  /* text */
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 2px 0px 2px gray;
+}
+
+.number-selected {
+  background-color: gray;
+}
+
+.tile-start {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 2px 0px 2px gray;
+}
+
+.horizontal-line {
+  border-bottom: 3px solid black;
+}
+
+.vertical-line {
+  border-right: 3px solid black;
+}
